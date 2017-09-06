@@ -9,7 +9,7 @@ export default class ChangeInfo extends Component {
     
     render() {
         return (
-            <View style={{ flex: 1, backgroundColor: 'gray' }}>
+            <View style={{ flex: 1, backgroundColor: '#E36209' }}>
                 <Text>ChangeInfo</Text>
                 <TouchableOpacity onPress={this.gobackToMain.bind(this)}>
                     <Text>Go back to Main</Text>

@@ -9,7 +9,7 @@ export default class OrderHistory extends Component {
     
     render() {
         return (
-            <View style={{ flex: 1, backgroundColor: 'gray' }}>
+            <View style={{ flex: 1, backgroundColor: '#31C754' }}>
                 <Text>OrderHistory</Text>
                 <TouchableOpacity onPress={this.gobackToMain.bind(this)}>
                     <Text>Go back to Main</Text>

@@ -9,7 +9,7 @@ export default class Authentication extends Component {
 
     render() {
         return (
-            <View style={{ flex: 1, backgroundColor: 'green' }}>
+            <View style={{ flex: 1, backgroundColor: '#F1E05A' }}>
                 <Text>Authentication</Text>
                 <TouchableOpacity onPress={this.gobackToMain.bind(this)}>
                     <Text>Go back to Main</Text>
