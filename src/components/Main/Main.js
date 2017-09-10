@@ -5,6 +5,7 @@ import Menu from './Menu';
 import Shop from './Shop/Shop';
 
 export default class Main extends Component {
+
     gotoAuthentication() {
         const { navigator } = this.props;
         navigator.push({ name: 'AUTHENTICATION' });
@@ -29,10 +30,11 @@ export default class Main extends Component {
     };
 
     render() {
+        const { navigator } = this.props;
         return (
             <Drawer
                 ref={(ref) => { this.drawer = ref; }}
-                content={<Menu />}
+                content={<Menu navigator={navigator} />}
                 tapToClose
                 openDrawerOffset={0.4}
             >
