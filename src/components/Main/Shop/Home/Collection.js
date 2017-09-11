@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Image, StyleSheet, Dimensions } from 'react-native';
 
-import bannerImage from '../../../../../media/images/temp/banner.jpg';
+import bannerImage from '../../../../media/images/temp/banner.jpg';
 
 const { height, width } = Dimensions.get('window');
 
